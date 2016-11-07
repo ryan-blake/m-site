@@ -146,7 +146,13 @@ padding: 3px 15px 0 15px;
 /* ------------RESPONSIVE-----------------*/
 
 @media (max-width:767px) {
-  #work .bcg{
+  #design .bcg{
+    height:560px;
+  }
+  #develop .bcg{
+    height:560px;
+  }
+  #optimize .bcg{
     height:560px;
   }
 }
@@ -188,7 +194,7 @@ margin-left: calc(50% - 73px);
   margin-left:-15px;
 }
 
-#about .bcg{
+#work .bcg{
   height:230px;
 }
 
