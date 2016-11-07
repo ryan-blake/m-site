@@ -1,0 +1,195 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+.clearfix {
+  display: block;
+}
+#div-wrapper {
+   white-space: nowrap;
+   max-width: 100%;
+ }
+.bcg {
+  background: no-repeat center center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+.object-fit_fill {
+  object-fit: fill;
+}
+#header img {
+  width: 100%;
+}
+.image {
+  float: left;
+  width: 100%;
+  max-height:500px;
+}
+.cloud-font {
+  position:absolute;
+  font-family:sans-serif;
+  top: 140px;
+  left: calc(50% - 300px);
+  font-size:90px;
+  color: transparent;
+  font-size: 5.9vw;
+  text-shadow: 0px 0px 05px white;
+}
+.navigation{
+  background-color: rgba(50,124, 105, 0.3);
+  width:100%;
+  height:50px;
+  position: fixed;
+  top: 0;
+  z-index:0;
+}
+.navigation
+li.pull-right h4{
+  padding-right: 8px;
+  color: white;
+  text-decoration: none;
+}
+li.pull-right h4:hover{
+  color: gray;
+}
+
+.logo {
+-ms-transform: rotate(60deg); /* IE 9 */
+-webkit-transform: rotate(60deg); /* Chrome, Safari, Opera */
+transform: rotate(60deg);
+text-transform:120deg;position:absolute;top:4px;left:8px;width:40px; height: auto;
+}
+#about .bcg{
+  display:block;
+  width:100%;
+  position:relative;
+  background-color: #808080;
+  top:0px;
+  height:280px;
+}
+
+.box-1 {
+	background: url('../imgs/design-sprites.png') no-repeat -15px -2px;
+	width: 152px;
+	height: 151px;
+
+}
+
+.box-2 {
+	background: url('../imgs/design-sprites.png') no-repeat -229px -4px;
+	width: 152px;
+	height: 149px;
+  float:left;
+}
+
+.box-3 {
+	background: url('../imgs/design-sprites.png') no-repeat -442px -5px;
+	width: 149px;
+	height: 144px;
+  float:left;
+}
+.box-1,.box-2,.box-3 {
+margin-left: calc(50% - 93px);
+padding-right: calc(50% - 63px);
+top: 50px;
+position:absolute;
+float: right;
+clear:all;
+}
+#about-text {
+color:white;
+position:absolute;
+top:150px;
+font-family:arial;
+font-weight:bold;
+border:1px solid white;
+padding: 3px 15px 0 15px;
+}
+
+#design .bcg {
+  display:block;
+  width:100%;
+  position:relative;
+  background-color: #ccc;
+  height:280px;
+}
+#develop .bcg {
+  display:block;
+  width:100%;
+  position:relative;
+  background-color: #ccc;
+  height:280px;
+}
+#optimize .bcg {
+  display:block;
+  width:100%;
+  position:relative;
+  background-color: #ccc;
+  height:280px;
+}
+
+
+
+ .work-box{
+    border-bottom: 1px solid black;
+    height:280px;
+   }
+/* ------------RESPONSIVE-----------------*/
+
+@media (max-width:767px) {
+  #work .bcg{
+    height:560px;
+  }
+}
+@media (max-width:650px) {
+.cloud-font {
+  left: calc(50% - 130px);
+  font-size:5vw;
+  top: 80px;
+  text-shadow: 0px 0px 02px white;
+}
+.box-1{
+  background: url('../imgs/design-sprites.png') no-repeat 30px 15px;
+	width: 99px;
+	height: 99px;
+  background-size:215%
+}
+.box-2{
+  background: url('../imgs/design-sprites.png') no-repeat -59px 15px;
+	width: 99px;
+	height: 95px;
+  background-size:215%
+}
+.box-3{
+  background: url('../imgs/design-sprites.png') no-repeat -138px 15px;
+	width: 99px;
+	height: 99px;
+  background-size:215%
+}
+.box-1,.box-2,.box-3 {
+margin-left: calc(50% - 73px);
+}
+
+#about-text {
+  font-size: 10px;
+  top:80px;
+  left:10px;
+}
+.third#about-text {
+  margin-left:-15px;
+}
+
+#about .bcg{
+  height:230px;
+}
+
+}
