@@ -294,8 +294,6 @@ display: inline-block;
 top:20px;
 }
 
-
-
 .hover {
       background-color: rgba(0, 0, 0, 0.55);
       position: absolute;
@@ -309,6 +307,29 @@ top:20px;
 /**/
 /**/
 
+#inspire .bcg {
+  display:block;
+  width:100%;
+  position:relative;
+  background: url("../imgs/open.jpeg") center;
+  background-color: #ccc;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:250px;
+}
+.email-btn {
+/*position: absolute;*/
+background: #222;
+color: #ccc;
+width: 110px;
+padding: 6px 9px 6px 11px;
+border-radius: 20px;
+box-shadow: 0 1px 0 #ccc inset;
+text-align-last: left;
+transition: 100ms;
+}
 .email-input {
   background: #333;
      color: #ccc;
@@ -375,6 +396,10 @@ top:20px;
  left:-29px;
  }
  #design .bcg {
+   background-size:160%;
+   height:125px;
+ }
+ #inspire .bcg {
    background-size:160%;
    height:125px;
  }
