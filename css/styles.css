@@ -258,14 +258,14 @@ white-space: initial;
 
 .email-box  {
   float:left;background: #333;
-     color: #ccc;
-     width: 360px;
-     height:120px;
-     padding: 6px 15px 6px 35px;
-     border-radius: 1%;
-     box-shadow: 0 1px 0 #ccc inset;
-     transition: 500ms all ease;
-     outline: 0;
+  color: #ccc;
+  width: 330px;
+  height:120px;
+  padding: 6px 15px 6px 35px;
+  border-radius: 1%;
+  box-shadow: 0 1px 0 #ccc inset;
+  transition: 500ms all ease;
+  outline: 0;
 }
 #rise .bcg{
     display:block;
@@ -406,6 +406,15 @@ top:20px;
 
 }
 
+#footer .bcg {
+  display:block;
+  width:100%;
+  position:relative;
+  background-color: #000;
+  height:80px;
+  margin-top:-20px;
+}
+
 /* ------------RESPONSIVE-----------------*/
  @media (min-width:767px) and (max-width:1042px) {
    .work-text {
@@ -421,6 +430,10 @@ top:20px;
      text-align: center;
      left:-29px;
      }
+     #design .bcg {
+       background-size:160%;
+       height:125px;
+     }
  }
 @media (max-width:767px) {
   #design .bcg{
@@ -430,7 +443,7 @@ top:20px;
     height:560px;
   }
   #optimize .bcg{
-    height:560px;
+    height:260px;
     top:-20px;
   }
   .layer-text h3 {
