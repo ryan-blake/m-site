@@ -86,7 +86,7 @@ text-transform:120deg;position:absolute;top:4px;left:8px;width:40px; height: aut
   display:block;
   width:100%;
   position:relative;
-  background-color: #808080;
+  background-color: #ccc;
   top:0px;
   height:260px;
 }
@@ -138,6 +138,9 @@ padding:3px 15px 0 15px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   height:250px;
 }
@@ -177,6 +180,9 @@ white-space: initial;
   position:relative;
   background-color: #ccc;
   height:280px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .work-box{
@@ -327,6 +333,9 @@ top:20px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
   background-size: cover;
   height:250px;
 }
@@ -407,26 +416,16 @@ transition: 100ms;
  left:-29px;
  }
  #design .bcg {
-   background-size:160%;
+   background-size:130%;
    height:125px;
+   background-color:black;
  }
  #inspire .bcg {
-   background-size:160%;
-   height:125px;
+   background-size:130%;
+   height:150px;
+   background-color:black;
  }
- .modalDialog > div {
- width: 320px;
- position: relative;
- padding: 3px 10px 7px 10px;
- border-radius: 0px;
- background: #fff;
- background: -moz-linear-gradient(#fff, #999);
- background: -webkit-linear-gradient(#fff, #999);
- background: -o-linear-gradient(#fff, #999);
- }
- .modalDialog p {
-   font-size: smaller;
- }
+
  }
 @media (max-width:767px) {
   #design .bcg{
