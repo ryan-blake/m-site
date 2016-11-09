@@ -58,6 +58,14 @@ body {
   font-kerning: auto;
   font-size: 2.9vw;
 }
+#minty {
+  color: #808012;
+  position:absolute;
+  top:3px;
+  left:31px;
+  font-size:17px;
+  font-weight: 200;
+}
 .navigation{
   background-color: rgba(50,124, 105, 0.3);
   width:100%;
@@ -375,9 +383,21 @@ transition: 100ms;
   width:32px;
   height:38px;
 }
-
+.about-us{
+  position:absolute;
+  top:39px;
+  width: 440px;
+  overflow: none;
+  white-space: initial;
+  font-weight:normal;
+  line-height: .85em;
+  text-align:left;
+  color:white;
+  left:-20px;
+}
 #twitter {
 	background-position:-2px 0px;
+  top:5px;
 	width: 32px;
 	height: 38px;
   left: calc(75% - 35px);
@@ -386,6 +406,7 @@ transition: 100ms;
 
 #facebook {
 	background-position: -34px 0px;
+  top:5px;
 	width: 32px;
 	height: 38px;
   position:absolute;
@@ -395,6 +416,7 @@ transition: 100ms;
 
 #google-plus {
 	background-position: -66px 0px;
+  top:5px;
 	width: 33px;
 	height: 38px;
   position:absolute;
@@ -435,7 +457,7 @@ transition: 100ms;
     height:560px;
   }
   #optimize .bcg{
-    height:260px;
+    height:560px;
     top:-20px;
   }
   .layer-text h3 {
@@ -443,12 +465,22 @@ transition: 100ms;
       font-size:2.9vw;
       margin-right: 15px;
     }
+    .about-us {
+      text-align: center;
+      font-size:19px;
+      width:350px;
+      color:black;
+    left: -180px;
+      top: 290px;
+      float:left;
+      position:absolute;
+    }
 }
 @media (max-width:650px) {
 .cloud-font {
   left: calc(50% - 130px);
-  font-size:5vw;
-  top: 80px;
+  font-size:6vw;
+  top: 100px;
   text-shadow: 0px 0px 02px white;
 }
 .box-1{
@@ -478,6 +510,7 @@ margin-left: calc(50% - 73px);
   top:80px;
   left:10px;
 }
+
 .third#about-text {
   margin-left:-15px;
 }
