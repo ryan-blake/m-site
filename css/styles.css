@@ -59,12 +59,13 @@ body {
   font-size: 2.9vw;
 }
 #minty {
-  color: #808012;
+  color: #708139;
   position:absolute;
   top:3px;
   left:31px;
   font-size:17px;
   font-weight: 200;
+  text-shadow: 3px -2px 8px black;
 }
 .navigation{
   background-color: rgba(50,124, 105, 0.3);
@@ -79,16 +80,18 @@ li.pull-right h4{
   padding-right: 8px;
   color: white;
   text-decoration: none;
+  font-family:arial;
 }
 li.pull-right h4:hover{
   color: gray;
 }
 
 .logo {
+
 -ms-transform: rotate(60deg); /* IE 9 */
 -webkit-transform: rotate(60deg); /* Chrome, Safari, Opera */
 transform: rotate(60deg);
-text-transform:120deg;position:absolute;top:4px;left:8px;width:40px; height: auto;
+text-transform:120deg;position:absolute;top:4px;left:8px;width:43px; height: auto;
 }
 #about .bcg{
   display:block;
@@ -127,7 +130,7 @@ position:absolute;
 float: right;
 clear:all;
 }
-#about-text {
+.about-text {
 color:white;
 position:absolute;
 top:150px;
@@ -137,7 +140,7 @@ border:1px solid white;
 padding:3px 15px 0 15px;
 transition:500ms;
 }
-#about-text:hover {
+.about-text:hover {
 color:black;
 border-color: grey;
 }
@@ -387,7 +390,6 @@ transition: 1000ms;
   margin-top:-20px;
 }
 
-
 .spritesheet {
   background: url(../imgs/social-sprite.png) center no-repeat;
   width:32px;
@@ -396,14 +398,15 @@ transition: 1000ms;
 .about-us{
   position:absolute;
   top:39px;
-  width: 440px;
+  width: 410px;
   overflow: none;
   white-space: initial;
   font-weight:normal;
   line-height: .85em;
   text-align:left;
+  font-weight:lighter;
   color:white;
-  left:-20px;
+  right:30px;
 }
 #twitter {
 	background-position:-2px 0px;
@@ -447,14 +450,14 @@ transition: 1000ms;
  text-align: center;
  left:-29px;
  }
- /*.design2 .bcg {
-   display:block;
-   width:100%;
-   position:absolute;
-background:black;
-   background-color: #ccc;
-   z-index: 55;
- }*/
+ .header-text {
+   right:30px;
+ }
+
+ .about-us {
+   left(calc:50% - 400px);
+
+ }
  #design .bcg {
    background-size:130%;
    height:125px;
@@ -466,13 +469,10 @@ background:black;
    height:150px;
    background-color:black;
    background-attachment: scroll;
-
  }
-
- .inspire2 .bcg {
-
+ .layer-text {
+   text-align: center;
  }
-
  }
 @media (max-width:767px) {
   #design .bcg{
@@ -482,20 +482,20 @@ background:black;
     height:560px;
   }
   #optimize .bcg{
-    height:560px;
+    height:450px;
     top:-20px;
   }
   .layer-text h3 {
-      width: 375px;
-      font-size:2.9vw;
-      margin-right: 15px;
+      width: 355px;
+      font-size:4.9vw;
+      padding-right: 15px;
     }
     .about-us {
       text-align: center;
       font-size:19px;
       width:350px;
       color:black;
-    left: -180px;
+      left(calc:50% - 200px);
       top: 290px;
       float:left;
       position:absolute;
@@ -531,14 +531,14 @@ background:black;
 margin-left: calc(50% - 73px);
 }
 
-#about-text {
+.about-text {
   font-size: 10px;
   top:80px;
   left:10px;
 transition: 1000ms;
 }
 
-.third#about-text {
+.third.about-text {
   margin-left:-15px;
 }
 
