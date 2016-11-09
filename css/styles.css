@@ -135,7 +135,13 @@ font-family:arial;
 font-weight:bold;
 border:1px solid white;
 padding:3px 15px 0 15px;
+transition:500ms;
 }
+#about-text:hover {
+color:black;
+border-color: grey;
+}
+
 
 #design .bcg {
   display:block;
@@ -356,7 +362,10 @@ padding: 6px 9px 6px 11px;
 border-radius: 20px;
 box-shadow: 0 1px 0 #ccc inset;
 text-align-last: left;
-transition: 100ms;
+transition: 1000ms;
+}
+.email-btn:hover {
+  background: #ccc;
 }
 .email-input {
   background: #333;
@@ -365,7 +374,6 @@ transition: 100ms;
      padding: 6px 15px 6px 35px;
      border-radius: 20px;
      box-shadow: 0 1px 0 #ccc inset;
-     transition: 500ms all ease;
      outline: 0;
 
 }
@@ -378,6 +386,8 @@ transition: 100ms;
   height:80px;
   margin-top:-20px;
 }
+
+
 .spritesheet {
   background: url(../imgs/social-sprite.png) center no-repeat;
   width:32px;
@@ -437,15 +447,30 @@ transition: 100ms;
  text-align: center;
  left:-29px;
  }
+ /*.design2 .bcg {
+   display:block;
+   width:100%;
+   position:absolute;
+background:black;
+   background-color: #ccc;
+   z-index: 55;
+ }*/
  #design .bcg {
    background-size:130%;
    height:125px;
    background-color:black;
+   background-attachment: scroll;
  }
  #inspire .bcg {
    background-size:130%;
    height:150px;
    background-color:black;
+   background-attachment: scroll;
+
+ }
+
+ .inspire2 .bcg {
+
  }
 
  }
@@ -489,6 +514,7 @@ transition: 100ms;
 	height: 99px;
   background-size:215%
 }
+
 .box-2{
   background: url('../imgs/design-sprites.png') no-repeat -59px 15px;
 	width: 99px;
@@ -509,11 +535,13 @@ margin-left: calc(50% - 73px);
   font-size: 10px;
   top:80px;
   left:10px;
+transition: 1000ms;
 }
 
 .third#about-text {
   margin-left:-15px;
 }
+
 #about .bcg{
   height:190px !important;
 }
