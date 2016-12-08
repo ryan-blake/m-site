@@ -439,12 +439,21 @@ transition: 1000ms;
 /* ------------RESPONSIVE-----------------*/
 @media (min-width:1300px) and (max-width:3200px) {
   .cloud-font {
-    font-size:3.2px;
+    font-size:3.2vw;
   }
 
    #design .bcg {
-     height:300px;
+     min-height:500px;
    }
+
+  .layer {
+      background-color: rgba(0, 0, 0, 0.65);
+      position: absolute;
+      bottom: 180px;
+      right: 0;
+      width: 100%;
+      height: 325px;
+    }
 }
 
  @media (min-width:767px) and (max-width:1042px) {
