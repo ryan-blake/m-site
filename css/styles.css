@@ -173,13 +173,13 @@ border-color: grey;
 }
 .layer-text h3{
   position:absolute;
-font-size:2.5vw;
+font-size:2vw;
 top:5px;
 color:white;
 text-align:right;
 display:inline-block;
 vertical-align: top;
-width: 750px;
+width: 850px;
 right:0;
 margin-right:50px;
 white-space: initial;
@@ -437,11 +437,10 @@ transition: 1000ms;
   left: calc(25% - 35px);
 }
 /* ------------RESPONSIVE-----------------*/
-@media (min-width:1300px) and (max-width:3200px) {
+@media (min-width:2200px) and (max-width:5000px) {
   .cloud-font {
-    font-size:3.2vw;
+    font-size:90px;
   }
-
    #design .bcg {
      min-height:500px;
    }
@@ -453,6 +452,46 @@ transition: 1000ms;
       right: 0;
       width: 100%;
       height: 325px;
+
+    }
+    .layer-text h3 {
+      font-size: 2.5vw;
+      width:1050px;
+    }
+    .box-2,.box-3, .box-1 {
+    margin-left: calc(50% - 93px);
+    position:absolute;
+    top:130px;
+    }
+
+    .box-1{
+      background: url('../imgs/design-sprites.png') no-repeat 49px 15px;
+    	width: 90px !important;
+    	height: 199px;
+      background-size:675px;
+      left:-10px;
+    }
+
+    .box-2{
+      background: url('../imgs/design-sprites.png') no-repeat -190px 15px;
+    	width: 49px !important;
+    	height: 195px;
+      background-size:675px;
+      left:-40px;
+    }
+    .box-3{
+      background: url('../imgs/design-sprites.png') no-repeat -410px 15px;
+    	width: 99px;
+    	height: 199px;
+      background-size: 640px;
+    }
+    .about-text {
+      top: 180px;
+      margin-left:80px;
+    }
+
+    #inspire .bcg, #about .bcg {
+      min-height:500px;
     }
 }
 
