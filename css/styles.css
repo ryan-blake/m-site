@@ -43,7 +43,7 @@ body {
   font-family:sans-serif;
   top: 140px;
   left: calc(50% - 300px);
-  font-size:90px;
+  font-size:5vw;
   color: transparent;
   font-size: 5.9vw;
   text-shadow: 0px 0px 05px white;
@@ -205,7 +205,6 @@ white-space: initial;
 .work-box{
   border-bottom: 1px solid black;
   border-top: 1px solid black;
-
   height:280px;
  }
 
@@ -290,17 +289,7 @@ white-space: initial;
   text-align:center;
 }
 
-.email-box  {
-  float:left;background: #333;
-  color: #ccc;
-  width: 330px;
-  height:120px;
-  padding: 6px 15px 6px 35px;
-  border-radius: 1%;
-  box-shadow: 0 1px 0 #ccc inset;
-  transition: 500ms all ease;
-  outline: 0;
-}
+
 #rise .bcg{
     display:block;
     width:100%;
@@ -355,6 +344,18 @@ top:20px;
  -o-background-size: cover;
   background-size: cover;
   height:250px;
+}
+
+.email-box  {
+  float:left;background: #333;
+  color: #ccc;
+  width: 330px;
+  height:120px;
+  padding: 6px 15px 6px 35px;
+  border-radius: 1%;
+  box-shadow: 0 1px 0 #ccc inset;
+  transition: 500ms all ease;
+  outline: 0;
 }
 .email-btn {
 /*position: absolute;*/
@@ -436,6 +437,12 @@ transition: 1000ms;
   left: calc(25% - 35px);
 }
 /* ------------RESPONSIVE-----------------*/
+@media (min-width:1300px) and (max-width:1900px) {
+  /*.cloud-font {
+    font-size:30px;
+  }*/
+}
+
  @media (min-width:767px) and (max-width:1042px) {
    .work-text {
     width:160px ;
@@ -508,6 +515,7 @@ transition: 1000ms;
       padding-right: 15px;
     }
 }
+
 @media (max-width:650px) {
 .cloud-font {
   left: calc(50% - 130px);
