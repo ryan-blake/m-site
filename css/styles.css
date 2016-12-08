@@ -437,10 +437,10 @@ transition: 1000ms;
   left: calc(25% - 35px);
 }
 /* ------------RESPONSIVE-----------------*/
-@media (min-width:1300px) and (max-width:1900px) {
-  /*.cloud-font {
-    font-size:30px;
-  }*/
+@media (min-width:1300px) and (max-width:3200px) {
+  .cloud-font {
+    font-size:3.2px;
+  }
 
    #design .bcg {
      height:300px;
