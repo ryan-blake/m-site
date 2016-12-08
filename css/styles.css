@@ -441,6 +441,10 @@ transition: 1000ms;
   /*.cloud-font {
     font-size:30px;
   }*/
+
+   #design .bcg {
+     height:300px;
+   }
 }
 
  @media (min-width:767px) and (max-width:1042px) {
